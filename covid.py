@@ -2,9 +2,7 @@ import requests
 
 url = "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total"
 
-querystring = {
-    "country": "Ukraine",
-}
+querystring = {"country": "Ukraine"}
 
 headers = {
     'x-rapidapi-host': "covid-19-coronavirus-statistics.p.rapidapi.com",
